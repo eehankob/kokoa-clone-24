@@ -1,0 +1,44 @@
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--horizontal-space);
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.screen-header__title {
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.screen-header__icons span {
+    margin-left: 24px;
+}
+
+.screen-header__icons {
+    position: relative;
+}
+.screen-header__new {
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    left: 104px;
+    bottom: 20px;
+    border-radius: 20px;
+}
+
+
+@keyframes RotateGear {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.screen-header__icons .fa-gear {
+    animation: RotateGear 1s ease-in-out infinite;
+}

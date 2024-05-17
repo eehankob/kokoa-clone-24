@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatting-Kokoa Clone</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span> 
+        </div>
+        <div class="status-bar__column">
+            <span>11%</span>
+            <i class="fa-solid fa-battery-full fa-xl"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+            <i class="fa-solid fa-angle-left fa-2x"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">유진
+            </h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+            <span class="hamburger"><i class="fa-solid fa-bars fa-2x"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chatting">
+        <div class="chatting__timestamp">
+            Tuesday, June 30, 2024
+        </div>
+        <div class="message-row">
+            <img src="imgs/songkang.jpg" class=""/>
+            <div class="message-row__content">
+                <span class="message__author">유진</span>
+                <div class="message__info">
+                    <span class="message__bubble">안녕 엄마!</span>
+                    <span class="message__time">오전 11:23</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row__own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">응 유진아 밥먹었어?</span>
+                    <span class="message__time">오전 11:23</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message...">
+            <button class="smile"><i class="fa-regular fa-face-smile fa-lg"></i></button>
+            <button class="arrow"><i class="fa-solid fa-arrow-up"></i></button>
+        </div>
+    </form>
+
+    <script src="https://kit.fontawesome.com/73888dd4f8.js" crossorigin="anonymous">
+    </script>
+</body>
+</html>
